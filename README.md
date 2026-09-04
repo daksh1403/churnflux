@@ -104,4 +104,4 @@ All experiments use fixed random seeds (42-51 for AUC trajectory and RAG evaluat
 
 ## About the Author
 
-Daksh Agarwal is a computer science student at VIT Chennai, interested in vector search, retrieval systems, and the gap between benchmark metrics and production behavior.
+Daksh Agarwal is an undergraduate student in Computer Science and Engineering at VIT Chennai, India. His research sits at the intersection of information retrieval and systems: he cares about whether the metrics we optimize for in benchmarks actually hold up when indexes face the kind of continuous insert/delete churn you see in production vector databases. ChurnFlux started from a simple observation—that average recall stays flat while individual queries silently fail—and grew into a systematic study of per-query tail behavior under dynamic updates. When not running experiments, he enjoys digging into the implementation details of ANN algorithms and exploring how retrieval quality shapes downstream LLM behavior in RAG pipelines.
