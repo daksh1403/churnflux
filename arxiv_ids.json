@@ -1,0 +1,82 @@
+{
+  "RaBitQ": {
+    "arxiv_id": "2405.12497v1",
+    "arxiv_title": "RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for A",
+    "url": "https://arxiv.org/pdf/2405.12497v1.pdf"
+  },
+  "HighDim_ANNS_Reliable_Distance": {
+    "arxiv_id": "2303.09855v1",
+    "arxiv_title": "High-Dimensional Approximate Nearest Neighbor Search: with Reliable and Efficien",
+    "url": "https://arxiv.org/pdf/2303.09855v1.pdf"
+  },
+  "Starling": {
+    "arxiv_id": "2401.02116v3",
+    "arxiv_title": "Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensio",
+    "url": "https://arxiv.org/pdf/2401.02116v3.pdf"
+  },
+  "ACORN": {
+    "arxiv_id": "2403.04871v1",
+    "arxiv_title": "ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Struc",
+    "url": "https://arxiv.org/pdf/2403.04871v1.pdf"
+  },
+  "iRangeGraph": {
+    "arxiv_id": "2409.02571v1",
+    "arxiv_title": "iRangeGraph: Improvising Range-dedicated Graphs for Range-filtering Nearest Neig",
+    "url": "https://arxiv.org/pdf/2409.02571v1.pdf"
+  },
+  "SeRF": {
+    "arxiv_id": "2607.00727v1",
+    "arxiv_title": "Approximate Nearest Neighbor Search with Graph Range Filters",
+    "url": "https://arxiv.org/pdf/2607.00727v1.pdf"
+  },
+  "DIGRA": {
+    "arxiv_id": "2603.12913v2",
+    "arxiv_title": "RNSG: A Range-Aware Graph Index for Efficient Range-Filtered Approximate Nearest Neighbor ",
+    "url": "https://arxiv.org/pdf/2603.12913v2.pdf"
+  },
+  "Efficient_Dynamic_Indexing_RFANNS": {
+    "arxiv_id": "2603.12913v2",
+    "arxiv_title": "RNSG: A Range-Aware Graph Index for Efficient Range-Filtered Approximate Nearest Neighbor ",
+    "url": "https://arxiv.org/pdf/2603.12913v2.pdf"
+  },
+  "SymphonyQG": {
+    "arxiv_id": "2411.12229v1",
+    "arxiv_title": "SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Near",
+    "url": "https://arxiv.org/pdf/2411.12229v1.pdf"
+  },
+  "Subspace_Collision": {
+    "arxiv_id": "2411.14754v2",
+    "arxiv_title": "Subspace Collision: An Efficient and Accurate Framework for High-dimensional Approximate N",
+    "url": "https://arxiv.org/pdf/2411.14754v2.pdf"
+  },
+  "GraphBased_Vector_Search_Eval": {
+    "arxiv_id": "2509.05750v1",
+    "arxiv_title": "Toward Efficient and Scalable Design of In-Memory Graph-Based Vector Search",
+    "url": "https://arxiv.org/pdf/2509.05750v1.pdf"
+  },
+  "VectorDB_Whats_New": {
+    "arxiv_id": "2301.00073v2",
+    "arxiv_title": "Fluid Antenna System: New Insights on Outage Probability and Diversity Gain",
+    "url": "https://arxiv.org/pdf/2301.00073v2.pdf"
+  },
+  "SingleStore_V": {
+    "arxiv_id": "1112.2155v1",
+    "arxiv_title": "A Concurrency Control Method Based on Commitment Ordering in Mobile Databases",
+    "url": "https://arxiv.org/pdf/1112.2155v1.pdf"
+  },
+  "Efficient_ANNS_MultiDim": {
+    "arxiv_id": "2602.21514v2",
+    "arxiv_title": "I/O Optimizations for Graph-Based Disk-Resident Approximate Nearest Neighbor Search: A Des",
+    "url": "https://arxiv.org/pdf/2602.21514v2.pdf"
+  },
+  "Efficient_Index_Construction_ANNS": {
+    "arxiv_id": "1510.01991v1",
+    "arxiv_title": "HDIdx: High-Dimensional Indexing for Efficient Approximate Nearest Neighbor Search",
+    "url": "https://arxiv.org/pdf/1510.01991v1.pdf"
+  },
+  "VectorDB_Survey_Elsevier": {
+    "arxiv_id": "2309.11322v2",
+    "arxiv_title": "Vector database management systems: Fundamental concepts, use-cases, and current challenge",
+    "url": "https://arxiv.org/pdf/2309.11322v2.pdf"
+  }
+}

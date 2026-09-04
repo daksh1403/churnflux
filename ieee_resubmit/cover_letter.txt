@@ -1,0 +1,39 @@
+August 16, 2026
+
+The Editor-in-Chief
+IEEE Access
+
+Subject: Submission of manuscript for consideration for publication in IEEE Access
+
+Dear Editor,
+
+We are pleased to submit our manuscript titled "ChurnFlux: Measuring and Recovering Per-Query Tail Recall Under Dynamic Updates in Graph-Based Approximate Nearest Neighbor Search" for consideration for publication in IEEE Access.
+
+Graph-based Approximate Nearest Neighbor (ANN) indexes such as Hierarchical Navigable Small World (HNSW) underpin modern vector databases, semantic search, Retrieval-Augmented Generation (RAG), and recommendation systems. However, continuous insertions and deletions in production settings gradually degrade graph connectivity, a phenomenon we refer to as graph churn. This churn causes query-specific retrieval failures that are systematically concealed by conventional aggregate metrics such as average Recall@K, leaving practitioners with no reliable way to detect or address degraded retrieval quality without expensive, disruptive index maintenance.
+
+This manuscript proposes ChurnFlux, a lightweight, query-adaptive framework that improves retrieval robustness under dynamic graph churn without modifying the underlying index structure. The contribution is threefold: (1) Dynamic Robustness-delta@K, a query-centric evaluation metric that exposes tail retrieval failures hidden by average recall; (2) an oracle-free query instability predictor that estimates retrieval reliability at query time using answer-set overlap from two lightweight probe searches, without requiring ground-truth neighbours; and (3) an adaptive query-time recovery mechanism that allocates additional search effort only to queries predicted to be unstable, leaving the majority of queries at baseline cost.
+
+We evaluate ChurnFlux on dynamically updated HNSW indexes under controlled graph churn on benchmark vector datasets. The results show consistent improvements in query-level robustness and tail retrieval performance, with computational overhead remaining close to that of conventional fixed-budget search. Because ChurnFlux treats the underlying ANN index as a black box and operates entirely within the query path, it can be layered on top of existing HNSW-based systems and vector database engines with minimal engineering effort.
+
+We believe this work is well suited to IEEE Access given the journal's focus on practical, cross-disciplinary research with direct applicability to real-world systems. Vector databases and retrieval-augmented generation pipelines are now widely deployed in production AI systems, and the robustness gap this paper addresses is directly relevant to practitioners maintaining these systems under continuous data updates.
+
+We confirm the following:
+
+- This manuscript is original, has not been published previously, and is not under consideration for publication elsewhere.
+- The work evolves from an earlier unpublished technical draft developed by the same authors; the current manuscript is a substantially revised and expanded version, and no part of the earlier draft has been published or posted publicly.
+- Generative artificial intelligence tools (large language models) were used to assist with drafting, language editing, and the preparation of figures and experimental code during the development of this work. All technical content, experimental design, results, and conclusions were conceived, verified, and approved by the authors, and the AI-assisted nature of the work is disclosed in the manuscript's Acknowledgment section.
+- All authors have reviewed and approved the manuscript and agree to its submission to IEEE Access.
+- The authors have no conflicts of interest to declare in relation to this work.
+
+We thank the editorial team and reviewers for their time and consideration, and look forward to their feedback.
+
+Sincerely,
+
+S. Sobitha Ahila (Corresponding Author)
+Associate Professor, School of Computer Science and Engineering
+Vellore Institute of Technology (VIT), Chennai, Tamil Nadu, India
+Email: sobithaahila.s@vit.ac.in
+
+On behalf of co-author:
+Daksh Agarwal, School of Computer Science and Engineering, VIT Chennai
+Email: daksh.agarwal2025@vitstudent.ac.in

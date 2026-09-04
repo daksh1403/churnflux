@@ -1,0 +1,269 @@
+Starting optimized experiments...
+Seeds: [42, 43, 44, 45, 46, 47, 48, 49, 50, 51], K=10, EF_BASE=50
+
+######################################################################
+EXP 1: AUC-vs-Churn Trajectory (SHEAF differentiation)
+######################################################################
+
+  === SIFT-128 ===
+    Seed 42 (50000 vec, 300 q):
+      Churn  5%: AUC=0.916, fail=15, avg=0.9757, p1=0.800 [12s]
+      Churn 10%: AUC=0.996, fail=15, avg=0.9713, p1=0.700 [16s]
+      Churn 20%: AUC=0.948, fail=14, avg=0.9763, p1=0.700 [21s]
+      Churn 30%: AUC=0.923, fail=15, avg=0.9770, p1=0.800 [27s]
+      Churn 40%: AUC=0.837, fail=14, avg=0.9757, p1=0.700 [34s]
+      Churn 50%: AUC=0.837, fail=17, avg=0.9793, p1=0.800 [39s]
+    Seed 43 (50000 vec, 300 q):
+      Churn  5%: AUC=0.941, fail=19, avg=0.9753, p1=0.800 [12s]
+      Churn 10%: AUC=0.997, fail=15, avg=0.9777, p1=0.799 [16s]
+      Churn 20%: AUC=0.868, fail=17, avg=0.9747, p1=0.700 [23s]
+      Churn 30%: AUC=0.884, fail=16, avg=0.9750, p1=0.799 [29s]
+      Churn 40%: AUC=0.966, fail=19, avg=0.9730, p1=0.700 [35s]
+      Churn 50%: AUC=0.856, fail=19, avg=0.9757, p1=0.700 [40s]
+    Seed 44 (50000 vec, 300 q):
+      Churn  5%: AUC=0.945, fail=14, avg=0.9757, p1=0.800 [11s]
+      Churn 10%: AUC=0.947, fail=11, avg=0.9793, p1=0.700 [14s]
+      Churn 20%: AUC=0.946, fail=12, avg=0.9797, p1=0.800 [21s]
+      Churn 30%: AUC=0.895, fail=17, avg=0.9757, p1=0.800 [27s]
+      Churn 40%: AUC=0.949, fail=24, avg=0.9727, p1=0.700 [33s]
+      Churn 50%: AUC=0.962, fail=15, avg=0.9813, p1=0.799 [39s]
+    Seed 45 (50000 vec, 300 q):
+      Churn  5%: AUC=0.952, fail=14, avg=0.9723, p1=0.700 [11s]
+      Churn 10%: AUC=0.990, fail=17, avg=0.9753, p1=0.700 [14s]
+      Churn 20%: AUC=0.944, fail=15, avg=0.9767, p1=0.700 [21s]
+      Churn 30%: AUC=0.894, fail=16, avg=0.9790, p1=0.699 [26s]
+      Churn 40%: AUC=0.885, fail=19, avg=0.9773, p1=0.800 [35s]
+      Churn 50%: AUC=0.851, fail=15, avg=0.9767, p1=0.700 [41s]
+    Seed 46 (50000 vec, 300 q):
+      Churn  5%: AUC=0.994, fail=9, avg=0.9803, p1=0.800 [12s]
+      Churn 10%: AUC=0.987, fail=12, avg=0.9780, p1=0.799 [16s]
+      Churn 20%: AUC=0.987, fail=12, avg=0.9780, p1=0.800 [22s]
+      Churn 30%: AUC=0.994, fail=16, avg=0.9777, p1=0.799 [28s]
+      Churn 40%: AUC=0.958, fail=16, avg=0.9763, p1=0.800 [38s]
+      Churn 50%: AUC=0.963, fail=19, avg=0.9743, p1=0.799 [46s]
+    Seed 47 (50000 vec, 300 q):
+      Churn  5%: AUC=0.906, fail=13, avg=0.9760, p1=0.800 [16s]
+      Churn 10%: AUC=0.952, fail=17, avg=0.9740, p1=0.799 [20s]
+      Churn 20%: AUC=0.947, fail=13, avg=0.9743, p1=0.699 [28s]
+      Churn 30%: AUC=0.890, fail=16, avg=0.9750, p1=0.799 [34s]
+      Churn 40%: AUC=0.994, fail=14, avg=0.9760, p1=0.699 [42s]
+      Churn 50%: AUC=0.924, fail=23, avg=0.9730, p1=0.799 [52s]
+    Seed 48 (50000 vec, 300 q):
+      Churn  5%: AUC=0.946, fail=13, avg=0.9750, p1=0.700 [17s]
+      Churn 10%: AUC=0.984, fail=13, avg=0.9740, p1=0.699 [21s]
+      Churn 20%: AUC=0.817, fail=13, avg=0.9753, p1=0.799 [28s]
+      Churn 30%: AUC=0.875, fail=14, avg=0.9767, p1=0.699 [35s]
+      Churn 40%: AUC=0.900, fail=23, avg=0.9737, p1=0.799 [44s]
+      Churn 50%: AUC=0.931, fail=17, avg=0.9773, p1=0.800 [51s]
+    Seed 49 (50000 vec, 300 q):
+      Churn  5%: AUC=0.991, fail=14, avg=0.9747, p1=0.800 [16s]
+      Churn 10%: AUC=0.985, fail=14, avg=0.9723, p1=0.700 [20s]
+      Churn 20%: AUC=0.991, fail=14, avg=0.9743, p1=0.800 [27s]
+      Churn 30%: AUC=0.990, fail=13, avg=0.9810, p1=0.800 [34s]
+      Churn 40%: AUC=0.933, fail=18, avg=0.9767, p1=0.800 [43s]
+      Churn 50%: AUC=1.000, fail=11, avg=0.9790, p1=0.700 [51s]
+    Seed 50 (50000 vec, 300 q):
+      Churn  5%: AUC=0.982, fail=9, avg=0.9807, p1=0.799 [17s]
+      Churn 10%: AUC=0.922, fail=15, avg=0.9733, p1=0.700 [21s]
+      Churn 20%: AUC=0.962, fail=19, avg=0.9743, p1=0.800 [26s]
+      Churn 30%: AUC=0.962, fail=19, avg=0.9757, p1=0.800 [33s]
+      Churn 40%: AUC=0.892, fail=22, avg=0.9700, p1=0.700 [39s]
+      Churn 50%: AUC=0.971, fail=23, avg=0.9673, p1=0.600 [45s]
+    Seed 51 (50000 vec, 300 q):
+      Churn  5%: AUC=0.956, fail=13, avg=0.9697, p1=0.699 [14s]
+      Churn 10%: AUC=0.950, fail=16, avg=0.9723, p1=0.699 [18s]
+      Churn 20%: AUC=0.906, fail=20, avg=0.9693, p1=0.699 [25s]
+      Churn 30%: AUC=0.988, fail=16, avg=0.9723, p1=0.700 [31s]
+      Churn 40%: AUC=0.961, fail=15, avg=0.9787, p1=0.800 [39s]
+      Churn 50%: AUC=0.924, fail=22, avg=0.9717, p1=0.699 [45s]
+
+  SIFT-128 Summary:
+  Churn% |      AUC |           95% CI |  Fail%
+      5% |   0.9529 | [0.9318, 0.9739] |  13.3
+     10% |   0.9709 | [0.9524, 0.9894] |  14.5
+     20% |   0.9315 | [0.8930, 0.9700] |  14.9
+     30% |   0.9295 | [0.8946, 0.9644] |  15.8
+     40% |   0.9275 | [0.8934, 0.9616] |  18.4
+     50% |   0.9219 | [0.8817, 0.9621] |  18.1
+
+  === FMNIST ===
+    Seed 42 (50000 vec, 300 q):
+      Churn  5%: AUC=0.997, fail=2, avg=0.9977, p1=0.900 [48s]
+      Churn 10%: AUC=0.992, fail=4, avg=0.9937, p1=0.800 [60s]
+      Churn 20%: AUC=0.747, fail=2, avg=0.9963, p1=0.900 [69s]
+      Churn 30%: AUC=0.999, fail=6, avg=0.9930, p1=0.800 [86s]
+      Churn 40%: AUC=0.916, fail=6, avg=0.9930, p1=0.800 [98s]
+      Churn 50%: AUC=0.747, fail=2, avg=0.9953, p1=0.900 [115s]
+    Seed 43 (50000 vec, 300 q):
+      Churn  5%: AUC=1.000, fail=1, avg=0.9967, p1=0.900 [46s]
+      Churn 10%: AUC=1.000, fail=2, avg=0.9963, p1=0.900 [52s]
+      Churn 20%: AUC=N/A, fail=0, avg=0.9943, p1=0.900 [68s]
+      Churn 30%: AUC=0.824, fail=3, avg=0.9943, p1=0.899 [86s]
+      Churn 40%: AUC=1.000, fail=4, avg=0.9947, p1=0.800 [103s]
+      Churn 50%: AUC=1.000, fail=3, avg=0.9923, p1=0.899 [104s]
+    Seed 44 (50000 vec, 300 q):
+      Churn  5%: AUC=1.000, fail=1, avg=0.9967, p1=0.900 [50s]
+      Churn 10%: AUC=N/A, fail=0, avg=0.9943, p1=0.900 [58s]
+      Churn 20%: AUC=1.000, fail=2, avg=0.9943, p1=0.900 [65s]
+      Churn 30%: AUC=0.994, fail=2, avg=0.9957, p1=0.900 [76s]
+      Churn 40%: AUC=1.000, fail=2, avg=0.9940, p1=0.900 [94s]
+      Churn 50%: AUC=0.488, fail=1, avg=0.9943, p1=0.900 [110s]
+    Seed 45 (50000 vec, 300 q):
+      Churn  5%: AUC=0.995, fail=2, avg=0.9967, p1=0.900 [46s]
+      Churn 10%: AUC=1.000, fail=2, avg=0.9950, p1=0.900 [57s]
+      Churn 20%: AUC=0.822, fail=3, avg=0.9930, p1=0.899 [70s]
+      Churn 30%: AUC=0.482, fail=1, avg=0.9940, p1=0.900 [68s]
+      Churn 40%: AUC=0.998, fail=5, avg=0.9927, p1=0.800 [81s]
+      Churn 50%: AUC=0.745, fail=2, avg=0.9950, p1=0.900 [92s]
+    Seed 46 (50000 vec, 300 q):
+      Churn  5%: AUC=N/A, fail=0, avg=0.9983, p1=0.900 [41s]
+      Churn 10%: AUC=N/A, fail=0, avg=0.9980, p1=0.900 [48s]
+      Churn 20%: AUC=0.832, fail=3, avg=0.9970, p1=0.899 [59s]
+      Churn 30%: AUC=0.743, fail=2, avg=0.9973, p1=0.900 [69s]
+      Churn 40%: AUC=0.829, fail=3, avg=0.9940, p1=0.899 [79s]
+      Churn 50%: AUC=0.998, fail=5, avg=0.9923, p1=0.800 [90s]
+    Seed 47 (50000 vec, 300 q):
+      Churn  5%: AUC=0.995, fail=2, avg=0.9960, p1=0.900 [39s]
+      Churn 10%: AUC=0.993, fail=3, avg=0.9933, p1=0.899 [46s]
+      Churn 20%: AUC=1.000, fail=2, avg=0.9953, p1=0.900 [58s]
+      Churn 30%: AUC=0.829, fail=3, avg=0.9943, p1=0.899 [68s]
+      Churn 40%: AUC=0.998, fail=6, avg=0.9917, p1=0.800 [78s]
+      Churn 50%: AUC=1.000, fail=2, avg=0.9950, p1=0.900 [91s]
+    Seed 48 (50000 vec, 300 q):
+      Churn  5%: AUC=1.000, fail=1, avg=0.9963, p1=0.900 [40s]
+      Churn 10%: AUC=N/A, fail=0, avg=0.9960, p1=0.900 [45s]
+      Churn 20%: AUC=0.999, fail=3, avg=0.9953, p1=0.899 [56s]
+      Churn 30%: AUC=0.873, fail=4, avg=0.9933, p1=0.800 [67s]
+      Churn 40%: AUC=1.000, fail=3, avg=0.9940, p1=0.899 [78s]
+      Churn 50%: AUC=0.994, fail=3, avg=0.9933, p1=0.899 [89s]
+    Seed 49 (50000 vec, 300 q):
+      Churn  5%: AUC=1.000, fail=1, avg=0.9967, p1=0.900 [39s]
+      Churn 10%: AUC=1.000, fail=1, avg=0.9967, p1=0.900 [45s]
+      Churn 20%: AUC=1.000, fail=3, avg=0.9943, p1=0.899 [56s]
+      Churn 30%: AUC=0.740, fail=2, avg=0.9953, p1=0.900 [67s]
+      Churn 40%: AUC=0.747, fail=2, avg=0.9950, p1=0.900 [78s]
+      Churn 50%: AUC=0.896, fail=5, avg=0.9910, p1=0.800 [87s]
+    Seed 50 (50000 vec, 300 q):
+      Churn  5%: AUC=0.994, fail=2, avg=0.9957, p1=0.900 [38s]
+      Churn 10%: AUC=1.000, fail=1, avg=0.9950, p1=0.900 [45s]
+      Churn 20%: AUC=1.000, fail=3, avg=0.9940, p1=0.899 [56s]
+      Churn 30%: AUC=1.000, fail=1, avg=0.9953, p1=0.900 [67s]
+      Churn 40%: AUC=0.999, fail=5, avg=0.9930, p1=0.800 [78s]
+      Churn 50%: AUC=1.000, fail=9, avg=0.9900, p1=0.800 [88s]
+    Seed 51 (50000 vec, 300 q):
+      Churn  5%: AUC=1.000, fail=1, avg=0.9940, p1=0.900 [38s]
+      Churn 10%: AUC=1.000, fail=2, avg=0.9943, p1=0.900 [44s]
+      Churn 20%: AUC=1.000, fail=1, avg=0.9960, p1=0.900 [57s]
+      Churn 30%: AUC=1.000, fail=3, avg=0.9950, p1=0.899 [67s]
+      Churn 40%: AUC=0.898, fail=5, avg=0.9927, p1=0.800 [77s]
+      Churn 50%: AUC=1.000, fail=3, avg=0.9920, p1=0.899 [88s]
+
+  FMNIST Summary:
+  Churn% |      AUC |           95% CI |  Fail%
+      5% |   0.9979 | [0.9960, 0.9999] |   1.3
+     10% |   0.9980 | [0.9947, 1.0012] |   1.5
+     20% |   0.9333 | [0.8545, 1.0121] |   2.2
+     30% |   0.8484 | [0.7295, 0.9673] |   2.7
+     40% |   0.9384 | [0.8740, 1.0028] |   4.1
+     50% |   0.8869 | [0.7621, 1.0117] |   3.5
+
+  [AUC trajectory saved]
+
+######################################################################
+EXP 2: Scale Experiment (SIFT-128)
+######################################################################
+
+  === Scale 20000 ===
+    Seed 42: n=20000, fail=10, AUC=0.938, p1=0.699 [10s]
+    Seed 43: n=20000, fail=5, AUC=0.996, p1=0.799 [10s]
+    Seed 44: n=20000, fail=8, AUC=0.933, p1=0.800 [10s]
+    Seed 45: n=20000, fail=4, AUC=0.992, p1=0.798 [10s]
+    Seed 46: n=20000, fail=1, AUC=1.000, p1=0.900 [10s]
+    Summary: p1_churn=0.799, p1_cf=0.940
+
+  === Scale 50000 ===
+    Seed 42: n=50000, fail=9, AUC=0.929, p1=0.700 [31s]
+    Seed 43: n=50000, fail=11, AUC=1.000, p1=0.700 [31s]
+    Seed 44: n=50000, fail=10, AUC=0.989, p1=0.800 [31s]
+    Seed 45: n=50000, fail=7, AUC=1.000, p1=0.798 [31s]
+    Seed 46: n=50000, fail=11, AUC=0.849, p1=0.700 [31s]
+    Summary: p1_churn=0.740, p1_cf=0.880
+
+  === Scale 100000 ===
+    Seed 42: n=100000, fail=18, AUC=0.935, p1=0.700 [77s]
+    Seed 43: n=100000, fail=16, AUC=0.931, p1=0.699 [77s]
+    Seed 44: n=100000, fail=19, AUC=0.909, p1=0.700 [76s]
+    Seed 45: n=100000, fail=10, AUC=0.993, p1=0.700 [76s]
+    Seed 46: n=100000, fail=19, AUC=0.963, p1=0.699 [75s]
+    Summary: p1_churn=0.700, p1_cf=0.840
+
+  === Scale 200000 ===
+    Seed 42: n=200000, fail=19, AUC=0.904, p1=0.699 [180s]
+    Seed 43: n=200000, fail=23, AUC=0.923, p1=0.699 [178s]
+    Seed 44: n=200000, fail=19, AUC=0.868, p1=0.599 [180s]
+    Seed 45: n=200000, fail=21, AUC=0.937, p1=0.699 [176s]
+    Seed 46: n=200000, fail=20, AUC=0.910, p1=0.700 [175s]
+    Summary: p1_churn=0.679, p1_cf=0.800
+
+  [Scale saved]
+
+######################################################################
+EXP 3: Multi-Seed Full Pipeline
+######################################################################
+
+  === SIFT-128 (100000 vectors) ===
+    Seed 42: base_avg=0.9723 -> churn_avg=0.9607, p1=0.700, fail=30, AUC=0.942 [98s]
+    Seed 43: base_avg=0.9720 -> churn_avg=0.9650, p1=0.700, fail=31, AUC=0.959 [98s]
+    Seed 44: base_avg=0.9733 -> churn_avg=0.9610, p1=0.700, fail=33, AUC=0.926 [97s]
+    Seed 45: base_avg=0.9743 -> churn_avg=0.9647, p1=0.700, fail=28, AUC=0.991 [99s]
+    Seed 46: base_avg=0.9753 -> churn_avg=0.9560, p1=0.500, fail=33, AUC=0.911 [95s]
+    Seed 47: base_avg=0.9743 -> churn_avg=0.9740, p1=0.700, fail=17, AUC=0.960 [96s]
+    Seed 48: base_avg=0.9647 -> churn_avg=0.9647, p1=0.700, fail=28, AUC=0.934 [99s]
+    Seed 49: base_avg=0.9733 -> churn_avg=0.9673, p1=0.700, fail=22, AUC=0.997 [94s]
+    Seed 50: base_avg=0.9750 -> churn_avg=0.9727, p1=0.700, fail=20, AUC=0.849 [95s]
+    Seed 51: base_avg=0.9707 -> churn_avg=0.9700, p1=0.600, fail=23, AUC=0.946 [99s]
+
+  SIFT-128 Summary (mean ± 95% CI):
+    churn_avg: 0.9656 [0.9616, 0.9696]
+    churn_p1: 0.6700 [0.6217, 0.7183]
+    churn_rob_09: 0.9117 [0.8982, 0.9251]
+    cf_avg: 0.9925 [0.9913, 0.9937]
+    cf_p1: 0.8398 [0.8030, 0.8766]
+    cf_rob_09: 0.9853 [0.9803, 0.9904]
+
+  === FMNIST (50000 vectors) ===
+    Seed 42: base_avg=0.9983 -> churn_avg=0.9940, p1=0.899, fail=3, AUC=0.996 [109s]
+    Seed 43: base_avg=0.9983 -> churn_avg=0.9927, p1=0.799, fail=5, AUC=1.000 [110s]
+    Seed 44: base_avg=0.9967 -> churn_avg=0.9947, p1=0.900, fail=2, AUC=0.738 [108s]
+    Seed 45: base_avg=0.9977 -> churn_avg=0.9927, p1=0.800, fail=5, AUC=1.000 [110s]
+    Seed 46: base_avg=0.9997 -> churn_avg=0.9953, p1=0.900, fail=1, AUC=1.000 [109s]
+    Seed 47: base_avg=0.9980 -> churn_avg=0.9953, p1=0.900, fail=2, AUC=0.744 [109s]
+    Seed 48: base_avg=0.9987 -> churn_avg=0.9943, p1=0.900, fail=2, AUC=0.997 [108s]
+    Seed 49: base_avg=0.9983 -> churn_avg=0.9973, p1=0.900, fail=0, AUC=N/A [109s]
+    Seed 50: base_avg=0.9973 -> churn_avg=0.9937, p1=0.899, fail=3, AUC=1.000 [107s]
+    Seed 51: base_avg=0.9967 -> churn_avg=0.9920, p1=0.800, fail=6, AUC=0.825 [108s]
+
+  FMNIST Summary (mean ± 95% CI):
+    churn_avg: 0.9942 [0.9931, 0.9953]
+    churn_p1: 0.8697 [0.8351, 0.9043]
+    churn_rob_09: 0.9903 [0.9858, 0.9949]
+    cf_avg: 0.9980 [0.9973, 0.9987]
+    cf_p1: 0.9100 [0.8874, 0.9326]
+    cf_rob_09: 0.9977 [0.9961, 0.9993]
+
+  [Multi-seed saved]
+
+######################################################################
+EXP 4: IVF-PQ Codebook Analysis
+######################################################################
+
+  === SIFT-128 ===
+  Building IVF-PQ: n=50000, dim=128, nlist=100, m=32
+Traceback (most recent call last):
+  File "/Users/dakshagarwal/dbms_research/experiments_v2.py", line 292, in <module>
+    all_results['ivfpq'] = exp_ivfpq()
+                           ~~~~~~~~~^^
+  File "/Users/dakshagarwal/dbms_research/experiments_v2.py", line 241, in exp_ivfpq
+    centroids = faiss.vector_to_array(qz.xb).reshape(nlist, dim).copy()
+                                      ^^^^^
+AttributeError: 'IndexFlatL2' object has no attribute 'xb'
