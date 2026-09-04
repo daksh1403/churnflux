@@ -102,7 +102,6 @@ All experiments use fixed random seeds (42-51 for AUC trajectory and RAG evaluat
 }
 ```
 
-## Contact
+## About the Author
 
-- Email: daksh.agarwal2025@vitstudent.ac.in
-- GitHub: [@daksh1403](https://github.com/daksh1403)
+Daksh Agarwal is a computer science student at VIT Chennai, interested in vector search, retrieval systems, and the gap between benchmark metrics and production behavior.
